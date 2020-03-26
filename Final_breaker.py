@@ -94,3 +94,7 @@ secret = "".join([(char if index in known_key_positions else '*') for index, cha
 print(secret)
 
 ## similarly by xoring, other given ciphers can also be decrypted
+## For best understanding of this encoding and decoding concept, visit:
+##                                htps://docs.python.org/3.8/howto/unicode.html#definitions
+##                                https://docs.python.org/3.8/library/codecs.html#standard-encodings    
+
